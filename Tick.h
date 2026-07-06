@@ -16,16 +16,10 @@ namespace Tick {
 		return TickFlush_OG(Driver, DeltaSeconds);
 	}
 
-//	inline float GetMaxTickRate()
-//	{
-	//	return 30.f;
-//	}
-
 	void Hooks() 
 	{
 
 		Hook(ImageBase + Addresses::TickFlush, TickFlush, (void**)&TickFlush_OG);
-		//MH_CreateHook((LPVOID)(ImageBase + Addresses::GetMaxTickRate), GetMaxTickRate, nullptr);
 		Log("[LEGACY] Hooking Tick");
 	}
 }
