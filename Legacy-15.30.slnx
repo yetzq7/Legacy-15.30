@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Legacy-15.30.vcxproj" Id="0ba5353f-9b70-424d-b2ad-8b85b1d41ec9" />
+</Solution>

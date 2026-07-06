@@ -2,5 +2,7 @@
 shiddy gs with only ingame use it as base if u want ig
 
 ## Features:
-- [ ] In-game
+- [X] In-game
 - [ ] thats about it, might add mcp
+
+I will slowly add to this
