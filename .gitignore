@@ -1,8 +1,56 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
+# Build output
+Debug/
+Release/
+x64/
+x86/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+out/
 
-*.Legacy-15.30.slnx
+# Ignore only build artifacts inside x64
+x64/Debug/
+x64/Release/
 
-*.Legacy-15.30.vcxproj
+# Debug symbols
+*.pdb
+*.idb
+*.ilk
 
-*.Legacy-15.30.vcxproj.filters
+# Compiled binaries
+*.dll
+*.exe
+*.exp
 
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+
+# Unreal generated
+Intermediate/
+Saved/
+DerivedDataCache/
+Binaries/
